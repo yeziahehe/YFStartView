@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  YFStartView
 //
 //  Created by 叶帆 on 15/10/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

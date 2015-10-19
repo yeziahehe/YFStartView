@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YFStartView.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,36 @@
 
 @implementation AppDelegate
 
+@synthesize rootViewController;
 
+#pragma mark - Init Methods
+- (RootViewController *)rootViewController {
+    if (nil == rootViewController) {
+        rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    }
+    return rootViewController;
+}
+
+#pragma mark - Application Methods
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window setRootViewController:self.rootViewController];
+    [self.window makeKeyAndVisible];
+
+    YFStartView *startView = [YFStartView startView];
+    startView.isAllowRandomImage = YES;
+    startView.randomImages = [NSMutableArray arrayWithObjects:@"startImage4", @"startImage2", @"startImage1", @"startImage3", nil];
+    
+    startView.logoPosition = LogoPositionCenter;
+    startView.logoImage = [UIImage imageNamed:@"logo"];
+    
+    
+    
+    [startView configYFStartView];
+    
     return YES;
 }
 
