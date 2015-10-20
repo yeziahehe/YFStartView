@@ -19,6 +19,8 @@
 		2C69EA981BD55B39005694CC /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA961BD55B39005694CC /* startImage2.png */; settings = {ASSET_TAGS = (); }; };
 		2C69EA991BD55B39005694CC /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA971BD55B39005694CC /* startImage4.png */; settings = {ASSET_TAGS = (); }; };
 		2C69EA9B1BD55E00005694CC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9A1BD55E00005694CC /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		2C69EA9E1BD63FFB005694CC /* StartButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA9D1BD63FFB005694CC /* StartButtomView.m */; settings = {ASSET_TAGS = (); }; };
+		2C69EAA01BD6400A005694CC /* StartButtomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9F1BD6400A005694CC /* StartButtomView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		2C69EA961BD55B39005694CC /* startImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage2.png; sourceTree = "<group>"; };
 		2C69EA971BD55B39005694CC /* startImage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage4.png; sourceTree = "<group>"; };
 		2C69EA9A1BD55E00005694CC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2C69EA9C1BD63FFB005694CC /* StartButtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartButtomView.h; sourceTree = "<group>"; };
+		2C69EA9D1BD63FFB005694CC /* StartButtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartButtomView.m; sourceTree = "<group>"; };
+		2C69EA9F1BD6400A005694CC /* StartButtomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartButtomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 				2C69EA571BD4A5D0005694CC /* YFStartView.m */,
 				2C69EA831BD54B05005694CC /* Resource */,
 				2C69EA361BD49D7A005694CC /* Supporting Files */,
+				2C69EA9C1BD63FFB005694CC /* StartButtomView.h */,
+				2C69EA9D1BD63FFB005694CC /* StartButtomView.m */,
+				2C69EA9F1BD6400A005694CC /* StartButtomView.xib */,
 			);
 			path = YFStartView;
 			sourceTree = "<group>";
@@ -172,6 +180,7 @@
 				2C69EA891BD54B05005694CC /* startImage3.png in Resources */,
 				2C69EA551BD4A44C005694CC /* RootViewController.xib in Resources */,
 				2C69EA991BD55B39005694CC /* startImage4.png in Resources */,
+				2C69EAA01BD6400A005694CC /* StartButtomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C69EA581BD4A5D0005694CC /* YFStartView.m in Sources */,
+				2C69EA9E1BD63FFB005694CC /* StartButtomView.m in Sources */,
 				2C69EA3B1BD49D7A005694CC /* AppDelegate.m in Sources */,
 				2C69EA381BD49D7A005694CC /* main.m in Sources */,
 				2C69EA541BD4A44C005694CC /* RootViewController.m in Sources */,

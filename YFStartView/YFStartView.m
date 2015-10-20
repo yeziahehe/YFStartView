@@ -60,8 +60,10 @@
         _logoImage = logoImage;
         return;
     } else {
-        _buttomView = [[UIView alloc] init];
-        UIImageView *imageView = [[UIImageView alloc] init];
+        _buttomView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Width * 1/3)];
+        _buttomView.backgroundColor = [UIColor whiteColor];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:logoImage];
+        imageView.frame = _buttomView.frame;
         imageView.contentMode = UIViewContentModeScaleAspectFit;
         [_buttomView addSubview:imageView];
         return;
@@ -127,24 +129,24 @@
                                                           constant:kScreen_Width *2/3]];
     } else if (_logoPosition == LogoPositionButtom) {
         self.backgroundColor = [UIColor whiteColor];
-        [self addSubview:_logoView];
+        [self addSubview:_buttomView];
         
-        [_logoView setTranslatesAutoresizingMaskIntoConstraints:NO];
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:_logoView
+        [_buttomView setTranslatesAutoresizingMaskIntoConstraints:NO];
+        [self addConstraint:[NSLayoutConstraint constraintWithItem:_buttomView
                                                          attribute:NSLayoutAttributeBottom
                                                          relatedBy:NSLayoutRelationEqual
                                                             toItem:self
                                                          attribute:NSLayoutAttributeBottom
                                                         multiplier:1
                                                           constant:0]];
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:_logoView
+        [self addConstraint:[NSLayoutConstraint constraintWithItem:_buttomView
                                                          attribute:NSLayoutAttributeHeight
                                                          relatedBy:NSLayoutRelationEqual
                                                             toItem:nil
                                                          attribute:NSLayoutAttributeHeight
                                                         multiplier:1
-                                                          constant:kScreen_Width/_logoView.frame.size.width*kScreen_Height]];
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:_logoView
+                                                          constant:kScreen_Width/_buttomView.frame.size.width*_buttomView.frame.size.height]];
+        [self addConstraint:[NSLayoutConstraint constraintWithItem:_buttomView
                                                          attribute:NSLayoutAttributeWidth
                                                          relatedBy:NSLayoutRelationEqual
                                                             toItem:nil

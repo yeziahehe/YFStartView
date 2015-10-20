@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YFStartView.h"
+#import "StartButtomView.h"
 
 @interface AppDelegate ()
 
@@ -38,10 +39,18 @@
     startView.isAllowRandomImage = YES;
     startView.randomImages = [NSMutableArray arrayWithObjects:@"startImage4", @"startImage2", @"startImage1", @"startImage3", nil];
     
-    startView.logoPosition = LogoPositionCenter;
-    startView.logoImage = [UIImage imageNamed:@"logo"];
+    //LogoPositionCenter
+//    startView.logoPosition = LogoPositionCenter;
+//    startView.logoImage = [UIImage imageNamed:@"logo"];
     
+    //LogoPositionCenter & UIView
+    startView.logoPosition = LogoPositionButtom;
+    StartButtomView *startButtomView = [[[NSBundle mainBundle] loadNibNamed:@"StartButtomView" owner:self options:nil] lastObject];
+    startView.logoView = startButtomView;
     
+    //LogoPositionCenter & UIImage
+//    startView.logoPosition = LogoPositionButtom;
+//    startView.logoImage = [UIImage imageNamed:@"logo"];
     
     [startView configYFStartView];
     
