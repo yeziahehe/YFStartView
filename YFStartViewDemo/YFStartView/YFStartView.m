@@ -24,6 +24,7 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
         [self setupDefaultValues];
     }
     return self;
@@ -170,6 +171,7 @@
             [UIView animateWithDuration:0.5 animations:^{
                 weakself.bgImageView.alpha = 0.0;
                 [weakself removeFromSuperview];
+                [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:YES];
             }];
         }];
     }];

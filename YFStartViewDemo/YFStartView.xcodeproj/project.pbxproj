@@ -14,13 +14,13 @@
 		2C69EA541BD4A44C005694CC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA521BD4A44C005694CC /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2C69EA551BD4A44C005694CC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA531BD4A44C005694CC /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2C69EA581BD4A5D0005694CC /* YFStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA571BD4A5D0005694CC /* YFStartView.m */; settings = {ASSET_TAGS = (); }; };
-		2C69EA871BD54B05005694CC /* startImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA841BD54B05005694CC /* startImage1.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EA891BD54B05005694CC /* startImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA861BD54B05005694CC /* startImage3.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EA981BD55B39005694CC /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA961BD55B39005694CC /* startImage2.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EA991BD55B39005694CC /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA971BD55B39005694CC /* startImage4.png */; settings = {ASSET_TAGS = (); }; };
 		2C69EA9B1BD55E00005694CC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9A1BD55E00005694CC /* logo.png */; settings = {ASSET_TAGS = (); }; };
 		2C69EA9E1BD63FFB005694CC /* StartButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA9D1BD63FFB005694CC /* StartButtomView.m */; settings = {ASSET_TAGS = (); }; };
 		2C69EAA01BD6400A005694CC /* StartButtomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9F1BD6400A005694CC /* StartButtomView.xib */; settings = {ASSET_TAGS = (); }; };
+		2C69EAAD1BD6708F005694CC /* startImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAA91BD6708F005694CC /* startImage1.png */; settings = {ASSET_TAGS = (); }; };
+		2C69EAAE1BD6708F005694CC /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAA1BD6708F005694CC /* startImage2.png */; settings = {ASSET_TAGS = (); }; };
+		2C69EAAF1BD6708F005694CC /* startImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAB1BD6708F005694CC /* startImage3.png */; settings = {ASSET_TAGS = (); }; };
+		2C69EAB01BD6708F005694CC /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAC1BD6708F005694CC /* startImage4.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,14 +36,14 @@
 		2C69EA531BD4A44C005694CC /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		2C69EA561BD4A5D0005694CC /* YFStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFStartView.h; sourceTree = "<group>"; };
 		2C69EA571BD4A5D0005694CC /* YFStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFStartView.m; sourceTree = "<group>"; };
-		2C69EA841BD54B05005694CC /* startImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage1.png; sourceTree = "<group>"; };
-		2C69EA861BD54B05005694CC /* startImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage3.png; sourceTree = "<group>"; };
-		2C69EA961BD55B39005694CC /* startImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage2.png; sourceTree = "<group>"; };
-		2C69EA971BD55B39005694CC /* startImage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage4.png; sourceTree = "<group>"; };
 		2C69EA9A1BD55E00005694CC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		2C69EA9C1BD63FFB005694CC /* StartButtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartButtomView.h; sourceTree = "<group>"; };
 		2C69EA9D1BD63FFB005694CC /* StartButtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartButtomView.m; sourceTree = "<group>"; };
 		2C69EA9F1BD6400A005694CC /* StartButtomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartButtomView.xib; sourceTree = "<group>"; };
+		2C69EAA91BD6708F005694CC /* startImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage1.png; sourceTree = "<group>"; };
+		2C69EAAA1BD6708F005694CC /* startImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage2.png; sourceTree = "<group>"; };
+		2C69EAAB1BD6708F005694CC /* startImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage3.png; sourceTree = "<group>"; };
+		2C69EAAC1BD6708F005694CC /* startImage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				2C69EA9A1BD55E00005694CC /* logo.png */,
-				2C69EA841BD54B05005694CC /* startImage1.png */,
-				2C69EA961BD55B39005694CC /* startImage2.png */,
-				2C69EA971BD55B39005694CC /* startImage4.png */,
-				2C69EA861BD54B05005694CC /* startImage3.png */,
+				2C69EAA91BD6708F005694CC /* startImage1.png */,
+				2C69EAAA1BD6708F005694CC /* startImage2.png */,
+				2C69EAAB1BD6708F005694CC /* startImage3.png */,
+				2C69EAAC1BD6708F005694CC /* startImage4.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					2C69EA321BD49D7A005694CC = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3WTM5PLDUE;
 					};
 				};
 			};
@@ -172,14 +173,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C69EA871BD54B05005694CC /* startImage1.png in Resources */,
-				2C69EA981BD55B39005694CC /* startImage2.png in Resources */,
 				2C69EA461BD49D7A005694CC /* LaunchScreen.storyboard in Resources */,
 				2C69EA431BD49D7A005694CC /* Assets.xcassets in Resources */,
 				2C69EA9B1BD55E00005694CC /* logo.png in Resources */,
-				2C69EA891BD54B05005694CC /* startImage3.png in Resources */,
 				2C69EA551BD4A44C005694CC /* RootViewController.xib in Resources */,
-				2C69EA991BD55B39005694CC /* startImage4.png in Resources */,
+				2C69EAB01BD6708F005694CC /* startImage4.png in Resources */,
+				2C69EAAD1BD6708F005694CC /* startImage1.png in Resources */,
+				2C69EAAE1BD6708F005694CC /* startImage2.png in Resources */,
+				2C69EAAF1BD6708F005694CC /* startImage3.png in Resources */,
 				2C69EAA01BD6400A005694CC /* StartButtomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,10 +298,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = YFStartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coryphaei.YFStartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,10 +314,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = YFStartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coryphaei.YFStartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
