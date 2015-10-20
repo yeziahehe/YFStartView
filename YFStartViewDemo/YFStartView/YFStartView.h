@@ -24,7 +24,7 @@ typedef NS_ENUM(NSInteger, LogoPosition) {
  *  是否允许随机启动图片，默认为NO，非必需
  *  Note:
  *     1.若randomImages为0或1，则不允许随机图片
- *     2.若randomImages大于1，则自动设置为随机图片
+ *     2.若randomImages大于1，设置为随机图片则随机取，未设置则默认取第一张
  */
 @property (nonatomic, assign) BOOL isAllowRandomImage;
 /**
