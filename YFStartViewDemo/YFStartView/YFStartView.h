@@ -45,6 +45,9 @@ typedef NS_ENUM(NSInteger, LogoPosition) {
  *  启动图片实例化
  */
 + (instancetype)startView;
+/**
+ *  开始设置YFStartView，启动函数
+ */
 - (void)configYFStartView;
 
 @end
