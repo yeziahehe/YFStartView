@@ -6,12 +6,19 @@
 ## Introduction
 
 在启动图都是一个PNG的年代下，有强迫症的我已经受不了，设计交互大法好。
+
+## Requirements
+
 - iOS 8 and later
 - ARC
 
 ## CocoaPods
 
 [CocoaPods](http://cocoapods.org/) is the recommended way to use YFStartView in your project.
+
+<p>
+<a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/v/YFStartView.svg?style=flat"></a>
+</p>
 
 - Simply add this line to your `Podfile`:
 ```
