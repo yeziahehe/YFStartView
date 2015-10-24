@@ -96,7 +96,7 @@ startView.randomImages = [NSMutableArray arrayWithObjects:@"startImage4", @"star
 
 设置logo的类型，类似于Coding。
 
-此种方式推荐LaunchScreen.xib background 为 block，且将logo.png设置在对应的位置，不会造成先出现黑色页面的情况，而是出现带有logo的LaunchScreen.xib再到YFStartView。
+此种方式推荐LaunchScreen.xib background 为 black，且将logo.png设置在对应的位置，不会造成先出现黑色页面的情况，而是出现带有logo的LaunchScreen.xib再到YFStartView。
 
 ```objective-c
 YFStartView *startView = [YFStartView startView];
