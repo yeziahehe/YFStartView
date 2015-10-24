@@ -2,7 +2,7 @@
 
 <p>
 <a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/v/YFStartView.svg?style=flat"></a>
-<a href="https://github.com/yeziahehe/YFStartView/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/YFStartView-blue.svg?style=flat"></a>
+<a href="https://github.com/yeziahehe/YFStartView/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/YFStartView.svg?style=flat"></a>
 <a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/p/YFStartView.svg?style=flat"></a>
 </p>
 
