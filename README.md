@@ -1,5 +1,17 @@
 # YFStartView - simple iOS StartView
 
+<p>
+<a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/v/YFStartView.svg?style=flat"></a>
+</p>
+
+<p>
+<a href="https://github.com/yeziahehe/YFStartView/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/YFStartView.svg?style=flat"></a>
+</p>
+
+<p>
+<a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/p/YFStartView.svg?style=flat"></a>
+</p>
+
 ![GIFImage](http://7xkvt5.com1.z0.glb.clouddn.com/github/YFStartViewbuttom.gif) </br >
 ![GIFImage](http://7xkvt5.com1.z0.glb.clouddn.com/github/YFStartViewcenter.gif)
 
@@ -15,10 +27,6 @@
 ## CocoaPods
 
 [CocoaPods](http://cocoapods.org/) is the recommended way to use YFStartView in your project.
-
-<p>
-<a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/v/YFStartView.svg?style=flat"></a>
-</p>
 
 - Simply add this line to your `Podfile`:
 ```
