@@ -11,16 +11,16 @@
 		2C69EA3B1BD49D7A005694CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA3A1BD49D7A005694CC /* AppDelegate.m */; };
 		2C69EA431BD49D7A005694CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA421BD49D7A005694CC /* Assets.xcassets */; };
 		2C69EA461BD49D7A005694CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA441BD49D7A005694CC /* LaunchScreen.storyboard */; };
-		2C69EA541BD4A44C005694CC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA521BD4A44C005694CC /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
-		2C69EA551BD4A44C005694CC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA531BD4A44C005694CC /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		2C69EA581BD4A5D0005694CC /* YFStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA571BD4A5D0005694CC /* YFStartView.m */; settings = {ASSET_TAGS = (); }; };
-		2C69EA9B1BD55E00005694CC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9A1BD55E00005694CC /* logo.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EA9E1BD63FFB005694CC /* StartButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA9D1BD63FFB005694CC /* StartButtomView.m */; settings = {ASSET_TAGS = (); }; };
-		2C69EAA01BD6400A005694CC /* StartButtomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9F1BD6400A005694CC /* StartButtomView.xib */; settings = {ASSET_TAGS = (); }; };
-		2C69EAAD1BD6708F005694CC /* startImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAA91BD6708F005694CC /* startImage1.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EAAE1BD6708F005694CC /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAA1BD6708F005694CC /* startImage2.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EAAF1BD6708F005694CC /* startImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAB1BD6708F005694CC /* startImage3.png */; settings = {ASSET_TAGS = (); }; };
-		2C69EAB01BD6708F005694CC /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAC1BD6708F005694CC /* startImage4.png */; settings = {ASSET_TAGS = (); }; };
+		2C69EA541BD4A44C005694CC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA521BD4A44C005694CC /* RootViewController.m */; };
+		2C69EA551BD4A44C005694CC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA531BD4A44C005694CC /* RootViewController.xib */; };
+		2C69EA581BD4A5D0005694CC /* YFStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA571BD4A5D0005694CC /* YFStartView.m */; };
+		2C69EA9B1BD55E00005694CC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9A1BD55E00005694CC /* logo.png */; };
+		2C69EA9E1BD63FFB005694CC /* StartButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69EA9D1BD63FFB005694CC /* StartButtomView.m */; };
+		2C69EAA01BD6400A005694CC /* StartButtomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EA9F1BD6400A005694CC /* StartButtomView.xib */; };
+		2C69EAAD1BD6708F005694CC /* startImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAA91BD6708F005694CC /* startImage1.png */; };
+		2C69EAAE1BD6708F005694CC /* startImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAA1BD6708F005694CC /* startImage2.png */; };
+		2C69EAAF1BD6708F005694CC /* startImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAB1BD6708F005694CC /* startImage3.png */; };
+		2C69EAB01BD6708F005694CC /* startImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C69EAAC1BD6708F005694CC /* startImage4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
