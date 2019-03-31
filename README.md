@@ -6,8 +6,8 @@
 <a href="http://cocoadocs.org/docsets/YFStartView"><img src="https://img.shields.io/cocoapods/p/YFStartView.svg?style=flat"></a>
 </p>
 
-![GIFImage](http://7xkvt5.com1.z0.glb.clouddn.com/github/YFStartViewbuttom.gif) </br >
-![GIFImage](http://7xkvt5.com1.z0.glb.clouddn.com/github/YFStartViewcenter.gif)
+![GIFImage](https://blog-1258094708.cos.ap-shanghai.myqcloud.com/YFStartViewbuttom.gif) </br >
+![GIFImage](https://blog-1258094708.cos.ap-shanghai.myqcloud.com/YFStartViewcenter.gif)
 
 ## Introduction
 
